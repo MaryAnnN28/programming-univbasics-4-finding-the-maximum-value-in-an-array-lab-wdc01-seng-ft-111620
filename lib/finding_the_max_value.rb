@@ -3,9 +3,9 @@ def find_max_value(scale)
   count = 0
   max_value = -1
 
-  while count < array.length do
-    if max_value < array[count]
-      max_value = array[count]
+  while count < scale.length do
+    if max_value < scale[count]
+      max_value = scale[count]
     end
     count += 1
   end

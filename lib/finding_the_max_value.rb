@@ -3,9 +3,9 @@ def find_max_value(scale_2)
   count = 0
   max_value = -1
 
-  while count < scale.length do
-    if max_value < scale[count]
-      max_value = scale[count]
+  while count < scale_2.length do
+    if max_value < scale_2[count]
+      max_value = scale_2[count]
     end
     count += 1
   end

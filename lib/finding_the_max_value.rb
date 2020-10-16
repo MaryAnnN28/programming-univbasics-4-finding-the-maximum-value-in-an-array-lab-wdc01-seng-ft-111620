@@ -1,5 +1,5 @@
-def find_max_value(scale)
-  scale = [2,3,4,5]
+def find_max_value(scale_2)
+  scale_2 = [6,5,4,3]
   count = 0
   max_value = -1
 

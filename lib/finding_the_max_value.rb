@@ -1,7 +1,7 @@
 def find_max_value(scale)
   scale = [1,2,1,3,4,3,5,4,3,2,1]
   count = 0
-  max_value = 1
+  max_value = -1
 
   while count < array.length do
     if max_value < array[count]
